@@ -1,0 +1,10 @@
+# folders
+cred/**
+data/**
+
+# jupyter notebooks
+*.ipynb
+
+# Unwanted
+__pycache__
+reference.py
