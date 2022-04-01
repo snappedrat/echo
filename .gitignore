@@ -2,9 +2,15 @@
 cred/**
 data/**
 
+# env
+.env
+
 # jupyter notebooks
+tt.json
 *.ipynb
 
 # Unwanted
 __pycache__
 reference.py
+sampel.csv
+marks_predict.py
