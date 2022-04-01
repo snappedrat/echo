@@ -1,6 +1,6 @@
 import telebot
 from telebot import types
-import pickle
+import json
 
 
 # keys
@@ -12,7 +12,7 @@ api = os.getenv('tele_api')
 
 bot = telebot.TeleBot(api)
 
-timetable = pickle.load(open('timetable.pickle', 'rb'))
+timetable = json.load(open('tt.json'))
 days = ['tuesday', 'wednesday', 'thursday', 'friday', 'saturday']
 
 def get_timetable(day, dpt='aiml_2020_0'):
